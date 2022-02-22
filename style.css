@@ -42,3 +42,24 @@ header{
     margin-left: 12%;
 
 }
+.mountain-pics {
+    float: left;
+    width:  33.33%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 12%;
+}
+.desert-pics {
+    float: left;
+    width:  33.33%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 12%;
+}
+.urban-pics {
+    float: left;
+    width:  33.33%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 12%;
+}
