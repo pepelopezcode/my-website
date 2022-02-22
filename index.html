@@ -11,11 +11,14 @@
     </header>
     <body> 
         <div id="main-body">
-            <h2>
+            <h2 id="places">
                 Places to visit 
             </h2>
             <p>Beaches</p>
-            <img src="images/santa monica.webp" alt="santa monica" class="thumbnail" id="beaches" >
+            <a href="beaches.html" id="beaches" onclick="document.location=this.id+'.html';return false;" >
+                <img src="images/santa monica.webp" alt="santa monica" class="thumbnail"  />
+            </a>
+            
             <p>Mountains</p>
             <img src="images/big bear.jpeg" alt="big-bear" class="thumbnail" id="big-bear">
             <p>Desert</p>
